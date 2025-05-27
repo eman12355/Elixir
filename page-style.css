@@ -1,0 +1,575 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+
+}
+
+/*top section*/
+
+.contant-container {
+    height: 8.5vh;
+    background-color: #2A3855;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+}
+
+.contant2 {
+    padding-left: 45px;
+}
+
+.contant {
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.contant .icon {
+    width: 1vw;
+    height: 1vh;
+    margin-right: 8px;
+}
+
+.contant a {
+    text-decoration: none;
+    color: white;
+}
+
+.contant a:hover {
+    border-bottom: 1px solid white;
+}
+
+@media (max-width: 991px) {
+    .contant1 {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {
+
+    .contant2,
+    .contant3 {
+        display: none;
+    }
+
+    .contant-container {
+        display: none;
+    }
+}
+
+
+
+/*Nav container*/
+
+
+.nav-bar {
+    height: 8.5vh;
+    background-color: #ffffffD9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 9px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    padding: 7px 0px 4px 0px;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    padding-top: 9px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #33415c;
+    padding: 6px 19px;
+    font-size: 1.1em;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.button {
+    background: transparent;
+    color: #2A3855;
+    border: 2px solid #2A3855;
+    font-size: 0.8em;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 6px 21px;
+}
+
+.button:hover {
+    background-color: #2A3855;
+    color: white;
+}
+
+
+/*main container*/
+
+
+.hero {
+    background-image: linear-gradient(rgba(0,0,0,.25),rgba(0,0,0,.25)), url('images/pages.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 5em;
+    padding-left: 100px;
+}
+
+/* 2th choose container*/
+
+.choose-section {
+    width: 100%;
+    height: 115vh;
+    padding: 120px 0;
+}
+
+.main1 {
+    width: 80vw;
+    height: 130vh;
+    margin: 0 69px;
+    padding: 0 16px;
+}
+
+.choose-card {
+    display: flex;
+}
+
+.picture {
+    width: 40vw;
+    height: 75vh;
+    padding: 0 16px;
+}
+
+.picture img {
+    width: 38vw;
+    border-radius: 5px;
+}
+
+.choose1 {
+    width: 40vw;
+    height: 75vh;
+    padding: 0 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.reason h5 {
+    color: #2A3855;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.reason i {
+    font-size: 1em;
+    margin: 0 8px 0 0;
+}
+
+.reason p {
+    color: #6A6A6A;
+    font-size: 1em;
+    margin: 16px 0;
+}
+
+/* 3rd services container*/
+.services-container {
+    width: 100%;
+    height: 260vh;
+    padding: 120px;
+    background-color: #fafafa;
+}
+
+.services {
+    width: 80vw;
+    height: 130vh;
+}
+
+.headding {
+    margin: 0 0 64px 0;
+}
+
+.headding h3 {
+    color: #2A3855;
+    margin: 0 0 8px 0;
+    font-size: 2.4em;
+    text-align: center;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.headding hr {
+    background-color: #2A3855;
+    width: 5.3vw;
+    height: 0.6vh;
+    margin: 16px auto;
+    border-radius: 3px;
+    border: none;
+}
+
+.service-cards {
+    background-color: #ffffff;
+    border-radius: 5px;
+    display: flex;
+}
+
+.service-cards .p1 img {
+    border-top-left-radius: 5px;
+}
+
+.service-cards .p3 img {
+    border-bottom-left-radius: 5px;
+}
+
+.service-cards .pic1 img {
+    width: 40vw;
+    height: 59vh;
+}
+
+.service-cards .content-box {
+    padding: 64px;
+    width: 40vw;
+    height: 59vh;
+}
+
+.content-box h5 {
+    color: #2A3855;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 0 0 8px 0;
+}
+
+.content-box p {
+    color: #6A6A6A;
+    font-size: 1em;
+    margin: 16px 0;
+}
+
+.content-box a {
+    text-decoration: none;
+    font-size: 1em;
+    color: #2A3855;
+    font-weight: bold;
+}
+
+.content-box a:hover {
+    border-bottom: 1px solid #2A3855;
+}
+
+.content-box span i {
+    font-size: 1em;
+    margin-left: 5px;
+    color: #2A3855;
+}
+
+.ser-cards {
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.ser-card {
+    padding: 0 16px;
+    width: 23.5vw;
+    height: 23vh;
+}
+
+.ser-card h5 {
+    color: #2A3855;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0 0 8px;
+}
+
+.ser-card i {
+    font-size: 0.9em;
+    margin: 0 16px 0 0;
+}
+
+.ser-card p {
+    color: #6A6A6A;
+    font-size: 1.1em;
+    margin: 16px 0;
+    padding: 0 48px 0 0;
+}
+
+.ser-card p a {
+    color: #2A3855;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.ser-card a:hover {
+    border-bottom: 1px solid #2A3855;
+}
+
+.ser-card p i {
+    color: #2A3855;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/* 4th contact container*/
+
+.container6 {
+    width: 100%;
+    height: 25vh;
+    background-color: #2A3855;
+    padding: 64px 64px;
+    display: flex;
+    gap: 60px;
+}
+
+.container6 h4 {
+    color: white;
+    font-size: 1.9em;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container6 a {
+    width: 12vw;
+    height: 7vh;
+    color: black;
+    background-color: #fafafa;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 12px 40px;
+}
+
+/* 5th intro container*/
+
+.container11 {
+    width: 100%;
+    height: 75vh;
+    padding: 120px 100px;
+}
+
+.container-content1 {
+    width: 80vw;
+    height: 45vh;
+    padding: 0 16px;
+    margin: 0 69px;
+    display: flex;
+}
+
+.left-container1 {
+    width: 20vw;
+    height: 45vh;
+    padding: 0 16px;
+}
+
+.left-container1 img {
+    width: 14vw;
+    height: 23vh;
+    border-radius: 6px;
+
+}
+
+.right-container1 {
+    width: 50vw;
+    height: 45vh;
+}
+
+.right-container1 p {
+    font-size: 1.4em;
+    margin-bottom: 16px;
+    color: #6A6A6A;
+}
+
+.right-container1 h6 {
+    font-size: 1.1em;
+    margin-bottom: 28px 0 4px 0;
+    color: #2A3855;
+    font-weight: bold;
+}
+
+.right-container1 .CEO {
+    font-size: 1.1em;
+    color: #949494;
+}
+
+
+/* 6th logos container*/
+
+.container12 {
+    width: 100%;
+    height: 30vh;
+    padding: 64px 0;
+    background-color: #f2f2f2;
+}
+
+.logo-imgs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo-imgs img {
+    width: 12vw;
+    height: 10vh;
+}
+
+
+
+/*  footer container*/
+
+.footer-container {
+    width: 100%;
+    height: 75vh;
+    padding: 120px;
+    background-color: #3d4c6f;
+    display: flex;
+}
+
+.left1 {
+    width: 65vw;
+    height: 40vh;
+    background-color: #2A3855;
+    padding: 64px;
+    border-radius: 6px;
+}
+
+.left1 h4 {
+    color: white;
+    font-size: 1.9em;
+    font-weight: bold;
+}
+
+.left1 p {
+    color: white;
+    font-size: 1em;
+    margin: 0 0 19px 0;
+}
+
+.left1 input {
+    color: #fafafa;
+    padding: 12px;
+    width: 15vw;
+    height: 7vh;
+    border-radius: 4px;
+    border: none;
+}
+
+.left1 button {
+    color: #2A3855;
+    background-color: #FDD428;
+    padding: 12px 40px;
+    font-size: 0.9em;
+    font-weight: bold;
+    border-radius: 4px;
+    border: none;
+    margin-left: 20px;
+}
+
+.right1 {
+    width: 32vw;
+    height: 45vh;
+    margin: 15px 0 0 60px;
+    padding: 0 16px;
+}
+
+.right1 ul {
+    list-style: none;
+}
+
+.right1 ul li {
+    margin: 0 0 16px 0;
+}
+
+.right1 ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.right1 ul li a:hover {
+    border-bottom: 1px solid white;
+}
+
+.inner2 {
+    width: 40vw;
+    height: 45vh;
+    margin: 0 0 0 60px;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+.inner2 i {
+    margin: 5px 13px 0 0;
+    font-size: 2em;
+    color: white;
+}
+
+.inner2 a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+/*  bottom-footer container*/
+.container15 {
+    width: 100%;
+    height: 13vh;
+    background-color: #2A3855;
+    color: white;
+    padding: 28px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container15 img {
+    width: 8vw;
+    height: 5vh;
+}
+
+.container15 p {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.container15 span {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.container15 span a {
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.container15 span a:hover {
+    border-bottom: 1px solid white;
+}

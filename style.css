@@ -1,0 +1,1171 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+
+}
+
+/*top section*/
+
+.contant-container {
+    height: 8.5vh;
+    background-color: #2A3855;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+}
+
+.contant2 {
+    padding-left: 45px;
+}
+
+.contant {
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.contant .icon {
+    width: 1vw;
+    height: 1vh;
+    margin-right: 8px;
+}
+
+.contant a {
+    text-decoration: none;
+    color: white;
+}
+
+.contant a:hover {
+    border-bottom: 1px solid white;
+}
+
+@media (max-width: 991px) {
+    .contant1 {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {
+
+    .contant2,
+    .contant3 {
+        display: none;
+    }
+
+    .contant-container {
+        display: none;
+    }
+}
+
+
+
+/*Nav container*/
+
+
+.nav-bar {
+    height: 8.5vh;
+    background-color: #ffffffD9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 9px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    padding: 7px 0px 4px 0px;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    padding-top: 9px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #33415c;
+    padding: 6px 19px;
+    font-size: 1.1em;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.button {
+    background: transparent;
+    color: #2A3855;
+    border: 2px solid #2A3855;
+    font-size: 0.8em;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 6px 21px;
+}
+
+.button:hover {
+    background-color: #2A3855;
+    color: white;
+}
+
+/* 1st container*/
+
+
+.carousel-item {
+    position: relative;
+    height: 90vh;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 100%;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 18%;
+    left: 10%;
+    text-align: left;
+    max-width: 500px;
+}
+
+.carousel-caption h1 {
+    font-size: 3.5em;
+    font-weight: bold;
+    color: #212e47;
+    margin-bottom: 27px;
+}
+
+.carousel-caption p {
+    font-size: 2em;
+    color: #2A3855;
+    margin-bottom: 48px;
+}
+
+.carousel-caption .btn {
+    border-radius: 3px;
+    border: none;
+    font-size: 0.9em;
+    font-weight: bold;
+
+}
+
+.btn-dark {
+    color: white;
+    background-color: #2A3855;
+    margin: 16px 16px 0 0;
+    padding: 12px 40px;
+
+}
+
+.btn-warning {
+    color: black;
+    background-color: #FDD428;
+    margin-top: 16px;
+    padding: 12px 40px;
+}
+
+/* 2nd welcome container*/
+
+.container2 {
+    padding: 120px 0;
+    background-color: white;
+    margin: 0px 90px;
+}
+
+.welcome {
+    text-align: center;
+}
+
+.welcome h3 {
+    font-size: 2.4em;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #2A3855;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.welcome p {
+    color: #6A6A6A;
+    font-size: 1.1em;
+    padding: 0 28px;
+    margin: 16px 0;
+}
+
+.welcome hr {
+    background-color: #0c0f14;
+    width: 5.3vw;
+    height: 0.6vh;
+    margin: 16px auto;
+    border-radius: 3px;
+    border: none;
+}
+
+.cards {
+    Width: 75vw;
+    Height: 45vh;
+    margin: 48px 0 0 35px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.card {
+    width: 17.5vw;
+    height: 49vh;
+    margin: 28px 0 0;
+    padding: 0 16px;
+    text-align: center;
+
+}
+
+.card div {
+    text-align: center;
+}
+
+.card .img {
+    width: 7.5vw;
+    height: 14vh;
+    border-radius: 50%;
+    border: 1px solid #80808024;
+    background: #80808014;
+    margin-left: 38px;
+}
+
+.card .img i {
+    font-size: 2.5em;
+    color: #2A3855;
+    padding-top: 18px;
+}
+
+.card h4 {
+    color: #2A3855;
+    margin: 28px 0 8px 0;
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card p {
+    color: #6A6A6A;
+    margin-top: 16px;
+    font-size: 1em;
+    padding: 0 16px;
+    text-align: center;
+}
+
+
+/* 3rd video container*/
+.container3 {
+    padding: 0 0 120px 0;
+    width: 85vw;
+    height: 150vh;
+}
+
+.inner {
+    padding: 0 0 64px 0;
+}
+
+.imageBtn {
+    background: url(images/bg1.jpeg);
+    width: 80vw;
+    height: 107vh;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin: 0 0px 0 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.video-btn i {
+    color: #2A3855;
+}
+
+.video-btn {
+    width: 7vw;
+    height: 14vh;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7em;
+}
+
+.boxs {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    padding: 0 16px;
+    width: 23.5vw;
+    height: 23vh;
+}
+
+.box h5 {
+    color: #2A3855;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 0 0 8px;
+}
+
+.box i {
+    font-size: 0.9em;
+    margin: 0 16px 0 0;
+}
+
+.box p {
+    color: #6A6A6A;
+    font-size: 1.1em;
+    margin: 16px 0;
+    padding: 0 48px 0 0;
+}
+
+/* 4th services container*/
+.services-container {
+    width: 100%;
+    height: 260vh;
+    padding: 120px;
+    background-color: #fafafa;
+}
+
+.services {
+    width: 80vw;
+    height: 130vh;
+}
+
+.headding {
+    margin: 0 0 64px 0;
+}
+
+.headding h3 {
+    color: #2A3855;
+    margin: 0 0 8px 0;
+    font-size: 2.4em;
+    text-align: center;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.headding hr {
+    background-color: #2A3855;
+    width: 5.3vw;
+    height: 0.6vh;
+    margin: 16px auto;
+    border-radius: 3px;
+    border: none;
+}
+
+.service-cards {
+    background-color: #ffffff;
+    border-radius: 5px;
+    display: flex;
+}
+
+.service-cards .p1 img {
+    border-top-left-radius: 5px;
+}
+
+.service-cards .p3 img {
+    border-bottom-left-radius: 5px;
+}
+
+.service-cards .pic1 img {
+    width: 40vw;
+    height: 59vh;
+}
+
+.service-cards .content-box {
+    padding: 64px;
+    width: 40vw;
+    height: 59vh;
+}
+
+.content-box h5 {
+    color: #2A3855;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 0 0 8px 0;
+}
+
+.content-box p {
+    color: #6A6A6A;
+    font-size: 1em;
+    margin: 16px 0;
+}
+
+.content-box a {
+    text-decoration: none;
+    font-size: 1em;
+    color: #2A3855;
+    font-weight: bold;
+}
+
+.content-box a:hover {
+    border-bottom: 1px solid #2A3855;
+}
+
+.content-box span i {
+    font-size: 1em;
+    margin-left: 5px;
+    color: #2A3855;
+}
+
+.ser-cards {
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.ser-card {
+    padding: 0 16px;
+    width: 23.5vw;
+    height: 23vh;
+}
+
+.ser-card h5 {
+    color: #2A3855;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0 0 8px;
+}
+
+.ser-card i {
+    font-size: 0.9em;
+    margin: 0 16px 0 0;
+}
+
+.ser-card p {
+    color: #6A6A6A;
+    font-size: 1.1em;
+    margin: 16px 0;
+    padding: 0 48px 0 0;
+}
+
+.ser-card p a {
+    color: #2A3855;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.ser-card a:hover {
+    border-bottom: 1px solid #2A3855;
+}
+
+.ser-card p i {
+    color: #2A3855;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* 5th choose container*/
+
+.choose-section {
+    width: 100%;
+    height: 137vh;
+    padding: 120px 0;
+}
+
+.main1 {
+    width: 80vw;
+    height: 130vh;
+    margin: 0 69px;
+    padding: 0 16px;
+}
+
+.headding {
+    margin: 0 0 80px 0;
+}
+
+.headding h3 {
+    color: #2A3855;
+    margin: 0 0 8px 0;
+    font-size: 2.4em;
+    text-align: center;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.headding hr {
+    background-color: #2A3855;
+    width: 5.3vw;
+    height: 0.6vh;
+    margin: 16px auto;
+    border-radius: 3px;
+    border: none;
+}
+
+.choose-card {
+    display: flex;
+}
+
+.picture {
+    width: 40vw;
+    height: 75vh;
+    padding: 0 16px;
+}
+
+.picture img {
+    width: 38vw;
+    border-radius: 5px;
+}
+
+.choose1 {
+    width: 40vw;
+    height: 75vh;
+    padding: 0 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.reason h5 {
+    color: #2A3855;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.reason i {
+    font-size: 1em;
+    margin: 0 8px 0 0;
+}
+
+.reason p {
+    color: #6A6A6A;
+    font-size: 1em;
+    margin: 16px 0;
+}
+
+
+/* 6th contact container*/
+
+.container6 {
+    width: 100%;
+    height: 25vh;
+    background-color: #2A3855;
+    padding: 64px 64px;
+    display: flex;
+    gap: 60px;
+}
+
+.container6 h4 {
+    color: white;
+    font-size: 1.9em;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container6 a {
+    width: 12vw;
+    height: 7vh;
+    color: black;
+    background-color: #fafafa;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 12px 40px;
+}
+
+/* 7th cards container*/
+
+.container7 {
+    width: 100%;
+    height: 150vh;
+    padding: 120px 0;
+}
+
+.headding h3 {
+    color: #2A3855;
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.headding hr {
+    background-color: #2A3855;
+    width: 5.3vw;
+    height: 0.6vh;
+    margin: 16px auto;
+    border-radius: 3px;
+    border: none;
+}
+
+.get {
+    width: 80vw;
+    height: 130vh;
+    margin: 0 69px;
+    padding: 0 16px;
+}
+
+.cards2 {
+    height: 59vh;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.card2 {
+    width: 25vw;
+    height: 40vh;
+    margin: 28px 0 0 0;
+    padding: 28px;
+    text-align: center;
+}
+
+.card2 img {
+    width: 3vw;
+}
+
+.card2 h3 {
+    margin: 16px 0 8px 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #2A3855;
+}
+
+.card2 p {
+    color: #6A6A6A;
+    font-size: 1em;
+}
+
+/* 8th form container*/
+
+.container8 {
+    width: 100%;
+    height: 88vh;
+    background-color: #2A3855;
+    padding: 120px;
+}
+
+.inner-container {
+    width: 80vw;
+    height: 55vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.request {
+    width: 23vw;
+    height: 50vh;
+    padding: 48px 28px;
+    border: 2px solid yellow;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.request h4 {
+    font-size: 1.9em;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0 0 21px 0;
+}
+
+.request p {
+    font-size: 1.1em;
+    color: #fafafa;
+    padding: 0 4px;
+}
+
+.submit-form {
+    width: 55vw;
+    height: 35vh;
+    padding: 0 48px 0 16px;
+    margin-top: 40px;
+}
+
+.submit-form h5 {
+    color: #ffffff;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.submit-form input {
+    width: 20vw;
+    height: 8vh;
+    padding: 0 16px;
+    border-radius: 5px;
+    border: none;
+    margin: 28px 0 0 16px;
+}
+
+.btn1 {
+    color: black;
+    background-color: #FDD428;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+/* 9th leadership container*/
+
+.container9 {
+    width: 100%;
+    height: 195vh;
+    padding: 120px 0;
+    background-color: #fafafa;
+}
+
+.global {
+    width: 80vw;
+    height: 110vh;
+    padding: 0 16px;
+    margin: 0 69px;
+}
+
+.headding-1 {
+    margin: 0 0 64px 0;
+}
+
+.headding-1 h3 {
+    color: #2A3855;
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.headding-1 hr {
+    background-color: #2A3855;
+    width: 5.3vw;
+    height: 0.6vh;
+    margin: 16px auto;
+    border-radius: 3px;
+    border: none;
+}
+
+.global-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.g-card {
+    width: 23vw;
+    height: 65vh;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.g-card img {
+    width: 23vw;
+    height: 30vh;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.g {
+    padding: 28px;
+    text-align: center;
+}
+
+.g h5 {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #2A3855;
+}
+
+.g h6 {
+    font-size: .8em;
+    color: #949494;
+}
+
+.g p {
+    font-size: 1em;
+    color: #6A6A6A;
+    padding: 16px 0;
+}
+
+/* 10th percentage container*/
+
+.container10 {
+    width: 100%;
+    height: 75vh;
+    background: url('images/bg2.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.container-content {
+    width: 80vw;
+    height: 45vh;
+    padding: 0 16px;
+    margin: 0 69px;
+    display: flex;
+}
+
+.left-container {
+    width: 4vw;
+    height: 45vh;
+    margin: 0 16px 0 0;
+}
+
+.left-container img {
+    width: 4vw;
+    height: 8vh;
+}
+
+.right-container {
+    width: 76vw;
+    height: 45vh;
+    color: #ffffff;
+}
+
+.right-container h2 {
+    font-size: 3em;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.highlight {
+    color: #fdd428;
+}
+
+.stats {
+    display: flex;
+    padding: 0 200px 0 0;
+    margin-top: 28px;
+    gap: 40px;
+}
+
+.stat-box {
+    padding: 0 16px;
+    width: 12vw;
+    height: 17vh;
+}
+
+.stat-box h2 {
+    font-size: 3.7em;
+    font-weight: bold;
+    margin: 48px 0 0 0;
+}
+
+.stat-box p {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+
+
+/* 11th intro container*/
+
+.container11 {
+    width: 100%;
+    height: 75vh;
+    padding: 120px 100px;
+}
+
+.container-content1 {
+    width: 80vw;
+    height: 45vh;
+    padding: 0 16px;
+    margin: 0 69px;
+    display: flex;
+}
+
+.left-container1 {
+    width: 20vw;
+    height: 45vh;
+    padding: 0 16px;
+}
+
+.left-container1 img {
+    width: 14vw;
+    height: 23vh;
+    border-radius: 6px;
+
+}
+
+.right-container1 {
+    width: 50vw;
+    height: 45vh;
+}
+
+.right-container1 p {
+    font-size: 1.4em;
+    margin-bottom: 16px;
+    color: #6A6A6A;
+}
+
+.right-container1 h6 {
+    font-size: 1.1em;
+    margin-bottom: 28px 0 4px 0;
+    color: #2A3855;
+    font-weight: bold;
+}
+
+.right-container1 .CEO {
+    font-size: 1.1em;
+    color: #949494;
+}
+
+
+/* 12th logos container*/
+
+.container12 {
+    width: 100%;
+    height: 30vh;
+    padding: 64px 0;
+    background-color: #f2f2f2;
+}
+
+.logo-imgs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo-imgs img {
+    width: 12vw;
+    height: 10vh;
+}
+
+/* 13th news container*/
+
+.container13 {
+    width: 100%;
+    height: 130vh;
+    padding: 120px 0;
+    background-color: #fafafa;
+}
+
+.news {
+    width: 80vw;
+    height: 100vh;
+    padding: 0 16px;
+    margin: 0 69px;
+}
+
+.headding-2 {
+    margin: 0 0 64px 0;
+}
+
+.headding-2 h3 {
+    color: #2A3855;
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.headding-2 hr {
+    background-color: #2A3855;
+    width: 5.3vw;
+    height: 0.6vh;
+    margin: 16px auto;
+    border-radius: 3px;
+    border: none;
+}
+
+.news-cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.news-card {
+    width: 24vw;
+    height: 80vh;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.news-card img {
+    width: 24vw;
+    height: 31vh;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.n {
+    padding: 28px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.n h5 {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #2A3855;
+}
+
+.n p {
+    font-size: 1em;
+    color: #949494;
+    margin: 0 0 16px 0;
+
+}
+
+.n .hmrc {
+    font-size: 1em;
+    color: #6A6A6A;
+    padding: 16px 0;
+}
+
+.n a {
+    text-decoration: none;
+    font-size: 1em;
+    color: #2A3855;
+    font-weight: bold;
+}
+
+.n a:hover {
+    border-bottom: 1px solid #2A3855;
+}
+
+.n span i {
+    font-size: 1em;
+    margin-left: 5px;
+    color: #2A3855;
+}
+
+/* 13th footer container*/
+
+.footer-container {
+    width: 100%;
+    height: 75vh;
+    padding: 120px;
+    background-color: #3d4c6f;
+    display: flex;
+}
+
+.left1 {
+    width: 65vw;
+    height: 40vh;
+    background-color: #2A3855;
+    padding: 64px;
+    border-radius: 6px;
+}
+
+.left1 h4 {
+    color: white;
+    font-size: 1.9em;
+    font-weight: bold;
+}
+
+.left1 p {
+    color: white;
+    font-size: 1em;
+    margin: 0 0 19px 0;
+}
+
+.left1 input {
+    color: #fafafa;
+    padding: 12px;
+    width: 15vw;
+    height: 7vh;
+    border-radius: 4px;
+    border: none;
+}
+
+.left1 button {
+    color: #2A3855;
+    background-color: #FDD428;
+    padding: 12px 40px;
+    font-size: 0.9em;
+    font-weight: bold;
+    border-radius: 4px;
+    border: none;
+    margin-left: 20px;
+}
+
+.right1 {
+    width: 32vw;
+    height: 45vh;
+    margin: 15px 0 0 60px;
+    padding: 0 16px;
+}
+
+.right1 ul {
+    list-style: none;
+}
+
+.right1 ul li {
+    margin: 0 0 16px 0;
+}
+
+.right1 ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.right1 ul li a:hover {
+    border-bottom: 1px solid white;
+}
+
+.inner2 {
+    width: 40vw;
+    height: 45vh;
+    margin: 0 0 0 60px;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+.inner2 i {
+    margin: 5px 13px 0 0;
+    font-size: 2em;
+    color: white;
+    background-color: #2A3855;
+}
+
+.inner2 a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+/* 14th bottom-footer container*/
+.container15 {
+    width: 100%;
+    height: 13vh;
+    background-color: #2A3855;
+    color: white;
+    padding: 28px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container15 img {
+    width: 8vw;
+    height: 5vh;
+}
+
+.container15 p {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.container15 span {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.container15 span a {
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.container15 span a:hover {
+    border-bottom: 1px solid white;
+}
